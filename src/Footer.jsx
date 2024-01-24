@@ -3,7 +3,7 @@ import { StyleFooter } from "./components/styled/Footer.styled";
 
 const Container = styled.div`
   width: 100%;
-  height: 10%;
+  height: 200px;
   margin: 0;
   box-sizing: border-box;
   padding: 0;
@@ -12,10 +12,14 @@ const Container = styled.div`
 const FooterSpan = styled.span`
 font-size: 15px;
 display: flex;
+position: relative;
+top: 50px;
 justify-content: center;
+align-items: center;
 font-weight: bold;
-color: ${({theme})=>theme.colors.textColor};
-margin-bottom: 10px;
+color: ${({theme})=>theme.colors.footerColor};
+
+
 
 `
 
@@ -25,10 +29,7 @@ function Footer() {
       <StyleFooter>
         <Container>
           <FooterSpan class="mb-3 mb-md-0 text-body-secondary">
-            © 2023 Company, Inc
-          </FooterSpan>
-          <FooterSpan>
-            by Ayşegül Direnç
+            © 2024 Company |  by Ayşegül Direnç
           </FooterSpan>
         </Container>
       </StyleFooter>

@@ -31,7 +31,7 @@ margin-right: 30px;
 color: ${({theme})=>theme.colors.navText};
 cursor: pointer;
 &:hover{
-    color: #dbd4db;
+    color: #fd0b70;
 }
 `
 

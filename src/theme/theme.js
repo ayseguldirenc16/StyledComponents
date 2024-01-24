@@ -1,15 +1,17 @@
 const whiteT = "#ffffff";
 const blackT = "#000000";
 const greyBg = "#696969";
-const navBg = "#d788be";
+const navBg = "#051c33";
 const mainT = "#ffccff";
 const bgLight= "#cccccc";
 const bgDark ="#696969";
 const navLinkColor ="#330000";
-const navHover = "#ff0000";
+const navHover = "#fd0b70";
 const silver= "#bdc3c7";
-const navH1 = "#ccd419";
-const navText ="#800080";
+const navH1 = "#e90460";
+const navText ="#830539";
+const footerTexrColor = "#fd0b70";
+const sectionCardbg = "#d3e8fa";
 
 
 const bgColorLight = bgLight;
@@ -19,6 +21,8 @@ const linkColorNav = navLinkColor;
 const navLinkHover = navHover;
 const navbg = navBg;
 const navH= navH1;
+const footerColor = footerTexrColor;
+const sectionBgColor = sectionCardbg;
 
 const lightTheme ={
     colors:{
@@ -32,7 +36,10 @@ const lightTheme ={
         greyBg,
         mainT,
         navH,
-        navText
+        navText,
+        footerColor,
+        sectionBgColor
+        
 
     }
 };
